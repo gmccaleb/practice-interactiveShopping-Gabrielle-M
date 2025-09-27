@@ -1,0 +1,152 @@
+/* body{
+    background-color:palegreen;
+}
+
+.remove-btn{
+    margin-left: 10px;
+}
+
+.edit-btn{
+    margin-left: 10px;
+}
+
+header{
+    padding: 60px;
+    background-color:plum;
+    margin: 0px;
+}
+
+main{
+    padding: 60px;
+} */
+
+/* Reset margin and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif; 
+  background-color:violet; 
+  color: #333; /* Dark gray text color */
+  padding: 20px; /* Space around the body */
+}
+
+/* Header styles */
+header {
+  text-align: center; /* Centers the header text */
+  margin-bottom: 20px; /* Space below the header */
+}
+
+h1 {
+  font-size: 2em; /* Large text for the title */
+  color: #333; /* Dark text color */
+}
+
+/* Main content section */
+main {
+  max-width: 600px; /* Limit the width of the content */
+  margin: 0 auto; /* Center the main content */
+  background-color: white; /* White background for the list container */
+  padding: 20px; /* Padding inside the container */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow around the container */
+}
+
+/* Input field for adding items */
+label {
+  font-size: 1em; /* Normal font size */
+  margin-bottom: 10px; /* Space below the label */
+  display: block; /* Ensure label is on its own line */
+}
+
+input {
+  width: 100%; /* Make the input field take up the full width */
+  padding: 10px; /* Add padding for comfort */
+  margin-bottom: 20px; /* Space below the input */
+  border: 1px solid #ccc; /* Light border color */
+  border-radius: 4px; /* Rounded corners */
+}
+
+/* Add item button */
+button {
+  padding: 10px 20px; /* Add padding to make it bigger */
+  font-size: 1em; /* Same size text for consistency */
+  cursor: pointer; /* Change cursor to pointer to show it's clickable */
+  background-color: #4CAF50; /* Green background */
+  color: white; /* White text color */
+  border: none; /* Remove default border */
+  border-radius: 4px; /* Rounded corners */
+  margin-top: 10px; /* Space above the button */
+}
+
+button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+/* Shopping list section */
+#list-items h2 {
+  font-size: 1.5em; /* Slightly smaller heading for the shopping list */
+  margin-bottom: 10px; /* Space below the heading */
+}
+
+ul {
+  list-style-type: none; /* Remove bullet points */
+  padding-left: 0; /* Remove left padding */
+}
+
+li {
+  display: flex; /* Use flexbox for easier alignment of items */
+  justify-content: space-between; /* Space out the text and buttons */
+  background-color: #fff; /* White background for list items */
+  padding: 10px; /* Add padding to list items */
+  margin-bottom: 10px; /* Space between list items */
+  border: 1px solid #ddd; /* Light border around items */
+  border-radius: 4px; /* Rounded corners */
+}
+
+/* Text style for the shopping list item */
+span {
+  flex-grow: 1; /* Ensure text takes available space */
+  font-size: 1.2em; /* Make the text larger */
+}
+
+/* Edit and remove buttons */
+button.remove-btn {
+  background-color: #ff5733; /* Red background for remove button */
+  color: white; /* White text for remove button */
+  padding: 5px 10px; /* Padding to make the button easier to click */
+  border-radius: 4px; /* Rounded corners */
+  margin-left: 10px; /* Space between text and buttons */
+}
+
+button.remove-btn:hover {
+  background-color: #e14e2f; /* Darker red on hover */
+}
+
+button.edit-btn {
+  background-color: #f1c40f; /* Yellow background for edit button */
+  color: white; /* White text for edit button */
+  padding: 5px 10px; /* Padding to make it clickable */
+  border-radius: 4px; /* Rounded corners */
+}
+
+button.edit-btn:hover {
+  background-color: #e67e22; /* Darker yellow on hover */
+}
+
+/* Edit input field styling */
+.edit-input {
+  width: 75%; /* Make the input field smaller */
+  padding: 5px; /* Add some padding */
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 4px; /* Rounded corners */
+}
+
+.edit-input:focus {
+  outline: none; /* Remove default outline */
+  border-color: #4CAF50; /* Green border when focused */
+}
