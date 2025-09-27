@@ -1,0 +1,21 @@
+body{
+    background-color:palegreen;
+}
+
+.remove-btn{
+    margin-left: 10px;
+}
+
+.edit-btn{
+    margin-left: 10px;
+}
+
+header{
+    padding: 60px;
+    background-color:plum;
+    margin: 0px;
+}
+
+main{
+    padding: 60px;
+}
